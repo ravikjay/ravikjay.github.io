@@ -12,10 +12,6 @@ p {
     font-size: 20px;
 }
 
-p.big {
-    margin: 11px;
-}
-
 p.small {
     font-size: 16px;
 }
@@ -27,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #7dd0bd;
+    /* this changes the hyperlink colors */
 }
 
 h1,
@@ -66,7 +63,8 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #d3d3d3;
+    color: #d8b616;
+    /* this changes the color of the star on some of the star bars */
     background-color: transparent;
 }
 
@@ -75,7 +73,8 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #d8b616;
+    /* this changes the color of the star on some of the star bars */
     background-color: transparent;
 }
 
@@ -187,7 +186,10 @@ section h2 {
 
 section.success {
     color: #d3d3d3;
-    background: #993232;
+    background: #355b8a;
+    /* main body color changes here */
+    /* this is the blue: #355b8a */
+    /* this is the red: #993232 */
 }
 
 section.success a,
@@ -197,6 +199,7 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #d3d3d3;
+    /* main body text color changes here */
 }
 
 @media(max-width:767px) {
@@ -350,7 +353,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #993232;
+    background-color: #355b8a ;
 }
 
 footer .footer-col {
@@ -359,7 +362,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #993232;
+    background-color: #355b8a;
 }
 
 .btn-social {
