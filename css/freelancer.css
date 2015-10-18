@@ -23,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #7dd0bd;
+    /*color: #d8b616;*/ /* gold color */ 
     /* this changes the hyperlink colors */
 }
 
