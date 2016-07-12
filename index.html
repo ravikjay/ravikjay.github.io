@@ -1,409 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="My Personal Website">
-    <meta name="author" content="Ravi Jayanthi">
+    <meta content="Ravi, Jayanthi, Ravi Jayanthi, Ravi Karthik Jayanthi, UCLA, University of California Los Angeles, computer science, Big Data, business development, software, website, web, web development, SEO, search engine optimization" name="Keywords" />
 
     <title>Ravi Jayanthi - UCLA</title>
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/mytype.css">
 
-    <!-- shortcut icon generated using favicon.co.uk-->
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-      ga('create', 'UA-73061027-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Ravi Jayanthi</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#resume">Resume/CV</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+<!--     <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ravi Jayanthi</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">Home</a></li>
+            <li><a href="#tf-about" class="page-scroll">About</a></li>
+            <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+                <!--<img class="headshot" src="img/me.jpg" width="200">--> 
+                <h1>Ravi  <strong><span class="color">Jayanthi</span></strong></h1>
+                <p class="lead">Computer Science @ <strong>UCLA</strong></p>
+                <div class="container">
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/ravikjay" style="font-size: 30px;"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ravikjay" style="font-size: 30px;"> <i class="fa fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://ravi.surge.sh/Ravi-Jayanthi-CV.pdf" style="font-size: 30px;"><i class="fa fa-file-text"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:ravikjay@gmail.com" style="font-size: 30px;"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@ravikjay" style="font-size: 30px;"><i class="fa fa-medium"></i></a>
+                        </li>
+                     </ul>
+                </div>
+
+<!--                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+ -->                
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Page
+    ==========================================-->
+    <!-- <div id="tf-about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/me.png" alt=""> 
-                    <div class="intro-text">
-                        <span class="name">Ravi Jayanthi</span>
-                        <hr class="star-light">
-                        <span class="skills">UCLA '18 | Computer Science and Engineering</span>
+                <div class="col-md-6">
+                    <img src="img/me2.jpg" class="img-responsive" width="500">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h4>Me.</h4>
+                            <h2>I love to <strong>learn</strong> &amp; <strong> build</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">I'm a <strong>junior</strong> studying Computer Science at UCLA. Catch me skating on campus.</p>
+                        <ul class="about-list">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Experience</strong> - <em>American Express, Schneider-Electric, ScAI Lab</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Skills</strong> - <em>C/C++, .NET, Python</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Interests</strong> - <em>Big Data, Cloud Applications, AI</em>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div> -->
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <hr class="star-light">
+    <!-- Resume Section
+    ==========================================-->
+    <!-- <div id="tf-testimonials" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>My <strong>Resume</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <p>My name's Ravi and I'm working on my second year at UCLA studying CSE. I started programming as a means to interact with the world of technology I always loved as a kid.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <p>Tenacity is a value I apply to myself personally and professionally. Maybe we can work together, and I can prove to you what I mean.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Why me?</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <p>I respect the value of well-executed products. They display precision, attentiveness, and thoughtfulness, all qualities I strive to live and work by. I'd like to be around people of a similar mindset.
-                    </p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <p>Take a look below through my portfolio. I'm constantly trying to improve myself, and this site is a manifestation of my efforts.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Grid Section-->
-
-    <section id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Experience</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>American Express</h3>
-                    <h4><font color="#5d7ba1 ">Software Engineering Intern</font> | <font color="#d8b616">Java, CardHolder Systems</font></h4>
-                    <p> This summer of 2016, I will be working at American Express. More details to come. </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Schneider-Eletric</h3>
-                    <h4><font color="#5d7ba1 ">Software Engineering Intern</font> | <font color="#d8b616">C#/.NET, Azure</font></h4>
-                    <p> At Schneider-Electric, I worked in Asset Development for HMI (Human Machine Interface) Software Solutions. Within this, I worked in back-end development, specifically with databases & server-side programming. </p>
-                    <p> One of the larger functions I provided was my extension of a time-series cloud database's ability to showcase various different data patterns by developing and deploying a customizable Azure Cloud Service Worker Role that programmatically queries online for stock data and records them in the database. I wrote the functionality in C# and queried Yahoo Finance using YQL (Yahoo Query Language).
-                    </p>
-                    <p> I also implemented a diagnostics paradigm in C# for a time-series cloud database. This protocol would allow the database to observe and record its own internal communications, server calls, and general functionality to self-diagnose in case of crashes or errors. This work involved technical details such as programmatic access of non-relational Azure storage accounts, parallelized network calls via TPL (Task Parallel Library) to a series of APIs, and large volume JSON object creation and management.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>UCLA Scalable Analytics Institute</h3>
-                    <h4><font color="#5d7ba1 ">Undergrad Researcher</font> | <font color="#d8b616">NodeJS, Javascript</font></h4>
-                    <p> I'm currently working as undergraduate researcher and software developer for the AZtec Biomedical Software Index project. This project is headed by Professor Wei Wang at UCLA as part of the BD2K (Big Data to Knowledge) initiative funded by the National Institute of Health. 
-                    </p>
-                    <p> So far I've been developing/deploying diagnostic features for the website with Google Analytics and writing Javascript scripts to scrape, parse, and record external resources for website extension.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Grid Section-->
-
-    <section class="success" id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Boulder Blast | <font color="#7dd0bd">C++</font></h3>
-                    <p> Implemented a puzzle/shooter arcade-style game based on a provided OpenGL framework. Game design, including inheritance flow between classes and implementation of all classes, was done from the ground up. Features fully functioning leveling, AI enemies, and in-game power-ups.
-                    </p>
-                    <p>See my <a href="https://github.com/ravikjay/BoulderBlast" target="_blank"><font color="#d8b616">GitHub</font></a> for the source code!</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Watchface | <font color="#7dd0bd">C & Pebble.js</font></h3>
-                    <p> Designed in Pebble.js and developed in C, this is a watch-face for my Pebble smart-watch. Uses bitmap layers, with
-                        soon-to-come sports API information. Deployable on both Legacy Pebble and Pebble Time.
-                    </p>
-                    <p>See my <a href="https://github.com/ravikjay/watchface" target="_blank"><font color="#d8b616">GitHub</font></a> for the source code!</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Web Steganographer | <font color="#7dd0bd">C++</font></h3>
-                    <p> Implemented an LZW compression algorithm based on a provided web scraper that encodes and decodes secret messages in HTML source files. Wrote an open hash table to handle all requests to store, encode, and decode characters.
-                    </p>
-                    <p>See my <a href="https://github.com/ravikjay/Steganographer" target="_blank"><font color="#d8b616">GitHub</font></a> for the source code!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Grid Section-->
-    
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Object-Oriented: <font color="#d8b616">C/C++</font>, <font color="#d8b616">C#</font>, <font color="#d8b616">Java</font></h3>
-                    <p> These are my bread and butter. I've written large programs in both, and have a solid understanding of scalable development with them. This includes but isn't limited to: data structures pertinent to both, algorithmic problem solving, and memory management. 
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Infrastructure: <font color="#d8b616">NodeJS</font>, <font color="#d8b616">Databases</font></h3>
-                    <p> I appreciate that are so many important components in a comprehensive, reliable back-end. Node is one of the frameworks I've been getting more familiar with recently, and its lightweight nature makes work much easier. I've also gotten my hands dirty with multiple databases, ranging from the proprietary time-series value database I worked on at Schneider-Electric to MySQL, MongoDB, and Neo4j that I interact with as I work in the lab.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>UI: <font color="#d8b616">HTML/CSS</font>, <font color="#d8b616">Bootstrap</font></h3>
-                    <p> As evidenced by this website, I also am familiar with front-end development. I understand that usability and style go hand in hand with functionality. This website specifically uses the Bootstrap framework and HTML/CSS over this. To get some of the more particular coloring arrangements I used LESS stylesheets.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Cloud: <font color="#d8b616">Azure</font>, <font color="#d8b616">AWS EC2</font></h3>
-                    <p> I've developed and deployed worker roles and web roles to multiplt production environments with Azure. I've also assisted in developing a REST API based website onto an EC2 platform. I personally take great interest in the value of cloud computing. The presence of cloud computing as a platform for software products opens lots of opportunity for very unique, valuable services.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-
-    <!-- Old Contact Section -->
-    <!-- <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Resume Drop</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    
-
-     <!-- Resume Section -->
-    <section class="success" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Resume</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
+                <div class="row">
                 <div class="col-lg-4 col-lg-offset-4 text-center">
-                    <p>Here is a link to my formal resume. Please contact me if you have any questions or wish to know further details!</p>
+                    <p>Tell me what you think.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="http://ravi.surge.sh/Ravi-Jayanthi-CV.pdf" target="_blank" class="btn btn-lg btn-outline">
@@ -411,140 +162,61 @@
                     </a>
                 </div>
             </div>
+            </div>
         </div>
-    </section>
+    </div> -->
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <!-- Contact Section
+    ==========================================-->
+    <!-- <div id="tf-contact" class="text-center">
         <div class="container">
+
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 text-center">
-                    <p>Email me at <a href="mailto:ravikjay@gmail.com?Subject=Business%20Inquiry" target="_top">ravikjay@gmail.com</a> with the subject 'Business Inquiries' or contact me via the social links listed below!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="col-md-8 col-md-offset-2">
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Where am I?</h3>
-                        <p>From sunny North Los Angeles. During the summer, I actively seek opportunities that allow me to travel a little while pursuing my professional goals.</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>On the Net</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/ravikjay" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/ravikjay" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.pinterest.com/ravijayanthi/" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://sumry.in/ravikjay" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-folder-open"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About This Website</h3>
-                        <p>This website was designed and built by me through a labor of blood, sweat, and tears (maybe a little HTML, CSS, Javascript, and Bootstrap along the way). You can see the source code on my <a href="https://github.com/ravikjay/ravikjay.github.io" target="_blank">GitHub</a> here!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-right">
-                        Last Updated: May 2016
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Ravi Jayanthi 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) Good for responsive design -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Possible Proj Title</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">June 2015</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    <div class="section-title center">
+                        <h2>Let's get in <strong>touch</strong></h2>
+                        <div class="line">
+                            <hr>
                         </div>
+                        <div class="clearfix"></div>       
                     </div>
+
+                   <p>Email me at <a href="mailto:ravikjay@gmail.com?Subject=Business%20Inquiry" target="_top">ravikjay@gmail.com</a> with the subject 'Business Inquiries' or contact me via the social links listed below!</p>
+
                 </div>
             </div>
+
         </div>
-    </div>
-    
+    </div> -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                <p>Brought to you by Ravi.</p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    Last Updated: July 2016
+                </ul>
+            </div>
+        </div>
+    </nav> -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="js/owl.carousel.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
 
-</body>
-
+  </body>
 </html>
