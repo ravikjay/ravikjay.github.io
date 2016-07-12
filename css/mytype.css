@@ -5,11 +5,11 @@ h1 {
 }
 
 /* Disable Scrolling */
-/*body {
+body {
       position: fixed; 
       overflow-y: scroll;
       width: 100%;
-}*/
+}
 
 .lead {
       font-size: 25px;
