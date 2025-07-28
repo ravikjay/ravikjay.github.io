@@ -9,6 +9,12 @@
   --color-stone: #E8DCC6;
   --color-terracotta: #BC6C25;
   
+  /* University Brand Colors */
+  --ucla-blue: #2774AE;
+  --ucla-gold: #FFD100;
+  --nyu-violet: #57068C;
+  --nyu-white: #FFFFFF;
+  
   /* Neutral Colors */
   --color-white: #FFFFFF;
   --color-cream: #FEFCF3;
@@ -217,9 +223,9 @@ body {
 
 /* Card Base Styles */
 .card {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: var(--radius-2xl);
   box-shadow: var(--shadow-lg);
   transition: var(--transition-slow);
@@ -254,6 +260,39 @@ body {
 
 .profile-header {
   margin-bottom: var(--space-8);
+}
+
+.name-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.headshot {
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: var(--space-2);
+}
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(135, 169, 107, 0.3);
+  transition: var(--transition-normal);
+}
+
+.profile-image:hover {
+  border-color: var(--color-sage);
+  transform: scale(1.05);
+}
+
+.name-content {
+  flex: 1;
+  text-align: left;
 }
 
 .name {
@@ -292,14 +331,16 @@ body {
   letter-spacing: 0.05em;
 }
 
-.tag-primary {
-  background: linear-gradient(135deg, var(--color-forest), var(--color-sage));
+.tag-ucla {
+  background: linear-gradient(135deg, var(--ucla-blue), var(--ucla-gold));
   color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.tag-secondary {
-  background: linear-gradient(135deg, var(--color-terracotta), var(--color-clay));
-  color: white;
+.tag-nyu {
+  background: linear-gradient(135deg, var(--nyu-violet), var(--nyu-white));
+  color: var(--nyu-violet);
+  border: 1px solid var(--nyu-violet);
 }
 
 .bio {
@@ -311,8 +352,8 @@ body {
 
 .stats {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-6);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
 }
 
 .stat {
@@ -358,7 +399,7 @@ body {
   display: flex;
   align-items: center;
   padding: var(--space-4);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(135, 169, 107, 0.1);
   border-radius: var(--radius-lg);
   text-decoration: none;
@@ -536,6 +577,22 @@ body {
   .stats {
     grid-template-columns: 1fr;
     gap: var(--space-4);
+  }
+  
+  .name-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-4);
+  }
+  
+  .name-content {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
   }
   
   .footer-content {
