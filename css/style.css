@@ -586,13 +586,19 @@ body {
     gap: var(--space-4);
   }
   
+  .headshot {
+    margin-top: 0;
+    order: -1;
+    align-self: center;
+  }
+  
   .name-content {
     text-align: center;
   }
   
   .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   
   .footer-content {
