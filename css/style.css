@@ -334,10 +334,8 @@ body {
 
 .tag-ucla {
   background: var(--ucla-blue);
-  color: var(--ucla-white);
-  text-shadow: 1px 1px 2px var(--ucla-gold);
+  color: var(--ucla-gold);
   font-weight: 700;
-  border: 1px solid var(--ucla-gold);
 }
 
 .tag-nyu {
